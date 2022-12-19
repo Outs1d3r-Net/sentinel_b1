@@ -40,7 +40,7 @@ agentsmith@matrix:~$ python3 sentinelb1.py --single <TARGET_IP>
 [![SingleScan](img/00.png)](https://www.abuseipdb.com/check/142.250.218.74)   
 #  
 ## Multiple Scan  
-For scan with list IP's execute the fallow command:  
+For scan with list IP's execute the follow command:  
 ```python3
 agentsmith@matrix:~$ python3 sentinelb1.py -l <LIST_IPs.txt>
 ``` 
