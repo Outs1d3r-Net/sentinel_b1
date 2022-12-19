@@ -32,7 +32,7 @@ There are only 3 variables that need attention before the script is executed.
 * More information:  
   - [Documentation API abuseIPDB](https://docs.abuseipdb.com/?python#introduction "Click here")  
 ## Single Scan  
-For single scan execute the fallow command:  
+For single scan execute the follow command:  
 ```python3
 agentsmith@matrix:~$ python3 sentinelb1.py --single <TARGET_IP>
 ``` 
@@ -50,14 +50,14 @@ agentsmith@matrix:~$ python3 sentinelb1.py -l <LIST_IPs.txt>
 ## Hashes
 ### Sha512     
 ```
-82dac120794f31dd698835c31378415eb90525572f6ccec7c3fdb3214d04a7f519d693694d01244e1051bdc74601f98a79ad23eea817140e12bcc37030183fd5  sentinelb1.py
+a622c298dd42d47f4e8b4838e2529b0f159eafab4d198198d441ca9360830ec12ed7d942abb1e04f82efa9e3ae67edefd54463a2ba9477cea2a4e214f425db99  sentinelb1.py
 ````
 ### Sha256     
 ```
-383c8f1f3013abbab246ca652f11761f81c073df566fe593705131add712694a  sentinelb1.py
+ec4ad2c564de2e64c4fc06dedc76a0500c820bac5b5c655ff20322ddcd776518  sentinelb1.py
 ```
 ### MD5     
 ```
-c7514dbbd76ce8c32cd641aee41120c5  sentinelb1.py
+5f9ae7c7013f33b13cc85b7c811a918b  sentinelb1.py
 ```
 :frog:

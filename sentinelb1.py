@@ -160,13 +160,13 @@ if len(sys.argv) != 3:
     exit(1)
 
 ##--> DEFINING TYPE SCAN
-if sys.argv[1] == "--list" or sys.argv[1] == "-l": ###--> FOR SCAN WHIT IP ADDRESS LIST
+if sys.argv[1] == "--list" or sys.argv[1] == "-l": ###--> FOR SCAN WITH IP ADDRESS LIST
     if '.txt' in sys.argv[2]:
         listScan()
         exit(1)
     else:
         banner()
-elif sys.argv[1] == "--single" or sys.argv[1] == "-s": ###--> FOR SCAN WHIT SINGLE IP ADDRESS
+elif sys.argv[1] == "--single" or sys.argv[1] == "-s": ###--> FOR SCAN WITH SINGLE IP ADDRESS
     if '.' in str(sys.argv[2]):
         singleScan()
         exit(1)
